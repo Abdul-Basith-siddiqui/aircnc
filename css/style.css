@@ -1,0 +1,188 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: rgb(245, 245, 245);
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.875rem;
+  color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1{
+  font-size: 22px;
+  color: #666A6C;
+  padding-bottom: 5px;
+}
+p.location{
+  margin: 10px;
+  padding: 20 2 10 1px;
+}
+
+
+div.logo{
+  height: 60;
+  width: 120px;
+  border-right: 1px solid #DCE0E0;
+  border-color: black;
+}
+.doghero img{
+ width: 100%;
+}
+
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+
+/*
+ * Button styles
+*/
+
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border-bottom: 1px solid rgb(227, 25, 29);
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+.white{
+  background:#FFF;
+  text-align: center;
+ 
+  margin: 10px;
+
+}
+.white .owner img{
+  border-radius: 50%;
+}
+.white h2.relation, .white h2.name {
+  color: #909597;
+  font-size: 14px;
+  padding-bottom: 5px;
+
+}
+.white h2.name{
+  font-weight: bold;
+}
+
+.white .icon {
+  float: left;
+  width: 33.3%;
+  padding-bottom: 10px;
+}
+.white .booking h2{
+ font-weight: bold;
+ font-size: 30px;
+ padding-bottom: 10px;
+}
+.container2{
+   text-align: center;
+   margin: 10px;
+}
+.container2 .about h3{
+  font-weight: bold;
+  font-size: 16px;
+  color: #565A5C;
+  padding: 60px 0px 40px 0px;
+}
+.p2{
+  line-height: 1.4em;
+}
+.pp{
+color: red;
+padding: 30px;
+font-size: 20px;
+}
+.care{
+  text-align: left;
+  line-height: 1.4em;
+}
+.game{
+  width: 30px;
+
+}
+.games{
+
+float: left auto;
+text-align: left;
+line-height: 30px;
+}
+ .pi{
+  color: teal;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+@media only screen and (min-width:1060px){
+
+.white{
+  padding: 40px;
+  margin: 20 auto;
+}
+
+
+.container{
+  width: px;
+  margin: 0 auto;
+ 
+}
+
+.x {
+  float: left;
+
+}
+.white .profile{
+  width: 600px;
+
+}
+.white .booking{
+  width: 380px;
+  margin: 40px;
+}
+.white .owner{
+  padding-left:160px;
+  padding-top: 20px;
+
+}
+.pet{
+  padding-top: 30px;
+  margin: 20px;
+}
+.about{
+  width: 
+}
+.container2{
+  width: 655px;
+  margin: 0 auto;
+
+  text-align:center;
+
+
+}
+}
